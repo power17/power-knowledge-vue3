@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center bg-gray items-center">
+  <div class="flex">
     <router-link class="item" to="/">产品</router-link>
     <a to="/" class="item" target="_blank">社区</a>
     <router-link class="item" to="/">学习</router-link>
