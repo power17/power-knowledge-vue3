@@ -1,12 +1,6 @@
 <template>
-  <Swiper height="36rem" :items="items">
-    <template v-slot="data">
-      <div>
-        gnosadgjosaj
-        {{ data.item }}
-      </div>
-    </template>
-  </Swiper>
+  <Swiper height="36rem" :items="items"> </Swiper>
+  <Card :image="bg"></Card>
 </template>
 <script setup lang="ts">
 import type { SwiperItemType } from '../components/types'
