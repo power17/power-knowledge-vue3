@@ -41,6 +41,7 @@ import type { Swiper as SwiperType } from 'swiper/types'
 import type { SwiperItemType } from './types'
 import { Navigation, Pagination } from 'swiper'
 import type { PropType } from 'vue'
+
 const props = defineProps({
   height: {
     type: String,

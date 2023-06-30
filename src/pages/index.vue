@@ -1,10 +1,12 @@
 <template>
   <Swiper height="36rem" :items="items"> </Swiper>
-  <Card :image="bg"></Card>
+  <!-- <Card :image="bg"></Card> -->
+  <div class="test"></div>
 </template>
 <script setup lang="ts">
 import type { SwiperItemType } from '../components/types'
 import bg from '@/assets/images/bg.png'
+
 const items: SwiperItemType[] = [
   {
     image: bg,
@@ -25,6 +27,13 @@ const items: SwiperItemType[] = [
   }
 ]
 </script>
+<style lang="scss" scoped>
+.test {
+  width: 100px;
+  height: 200px;
+  background: red;
+}
+</style>
 <route lang="yaml">
 meta:
   layout: default
